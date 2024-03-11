@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+     "target": "esnext", // Specifies the ECMAScript target version. "esnext" means the latest version of ECMAScript.
+     "module": "commonjs", // Specifies the module system for the output. "commonjs" is used in Node.js.
+     "outDir": "./dist", // Specifies the output directory for the compiled JavaScript files.
+     "declaration": true, // Generates corresponding `.d.ts` files for TypeScript files.
+     "strict": true, // Enables all strict type-checking options.
+     "esModuleInterop": true, // Enables a more compatible CommonJS/AMD module emit.
+     "forceConsistentCasingInFileNames": true, // Disallows inconsistently-cased references to the same file.
+     "skipLibCheck": true // Skips type checking of declaration files.
+  },
+  "include": ["src", "test"], // Specifies the files or folders to be included in the compilation.
+  "exclude": ["node_modules", "**/__tests__/**"] // Specifies the files or folders to be excluded from the compilation.
+}
