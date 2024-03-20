@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="17" failures="0" errors="0" time="18.351">
-  <testsuite name="LinkedIn Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:05:26" time="15.762" tests="3">
-    <testcase classname="LinkedIn Auth Process should return mock redirect URI in object format" name="LinkedIn Auth Process should return mock redirect URI in object format" time="0.03">
-    </testcase>
-    <testcase classname="LinkedIn Auth Process should return mock access tokens in object format" name="LinkedIn Auth Process should return mock access tokens in object format" time="0.947">
-    </testcase>
-    <testcase classname="LinkedIn Auth Process should return user details" name="LinkedIn Auth Process should return user details" time="0.734">
+<testsuites name="jest tests" tests="17" failures="0" errors="0" time="13.899">
+  <testsuite name="Integration Testing: Google Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:19:05" time="11.84" tests="1">
+    <testcase classname="Integration Testing: Google Auth Process should complete the Google Auth process and return necessary data" name="Integration Testing: Google Auth Process should complete the Google Auth process and return necessary data" time="0.948">
     </testcase>
   </testsuite>
-  <testsuite name="Integration Testing: Google Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:05:26" time="15.519" tests="1">
-    <testcase classname="Integration Testing: Google Auth Process should complete the Google Auth process and return necessary data" name="Integration Testing: Google Auth Process should complete the Google Auth process and return necessary data" time="1.154">
+  <testsuite name="Github Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:19:05" time="11.889" tests="3">
+    <testcase classname="Github Auth Process should return mock redirect URI in object format" name="Github Auth Process should return mock redirect URI in object format" time="0.028">
+    </testcase>
+    <testcase classname="Github Auth Process should return mock access tokens in object format" name="Github Auth Process should return mock access tokens in object format" time="0.709">
+    </testcase>
+    <testcase classname="Github Auth Process should return user details" name="Github Auth Process should return user details" time="0.252">
     </testcase>
   </testsuite>
-  <testsuite name="Integration Testing: GitHub Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:05:26" time="15.663" tests="1">
-    <testcase classname="Integration Testing: GitHub Auth Process should complete the GitHub Auth process and return necessary data" name="Integration Testing: GitHub Auth Process should complete the GitHub Auth process and return necessary data" time="1.541">
+  <testsuite name="Facebook Auth process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:19:05" time="12.054" tests="4">
+    <testcase classname="Facebook Auth process should return mock redirect URI in object format" name="Facebook Auth process should return mock redirect URI in object format" time="0.055">
+    </testcase>
+    <testcase classname="Facebook Auth process should return mock access tokens in object format" name="Facebook Auth process should return mock access tokens in object format" time="0.959">
+    </testcase>
+    <testcase classname="Facebook Auth process should return user details" name="Facebook Auth process should return user details" time="0.252">
+    </testcase>
+    <testcase classname="Facebook Auth process should return long-lived access token" name="Facebook Auth process should return long-lived access token" time="0.253">
     </testcase>
   </testsuite>
-  <testsuite name="Integration Testing: LinkedIn Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:05:26" time="16.023" tests="1">
-    <testcase classname="Integration Testing: LinkedIn Auth Process should complete the LinkedIn Auth process and return necessary data" name="Integration Testing: LinkedIn Auth Process should complete the LinkedIn Auth process and return necessary data" time="1.689">
+  <testsuite name="Integration Testing: Facebook Auth process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:19:05" time="12.173" tests="1">
+    <testcase classname="Integration Testing: Facebook Auth process should complete the Facebook Auth process and return necessary data" name="Integration Testing: Facebook Auth process should complete the Facebook Auth process and return necessary data" time="1.352">
     </testcase>
   </testsuite>
-  <testsuite name="Integration Testing: Facebook Auth process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:05:26" time="16.069" tests="1">
-    <testcase classname="Integration Testing: Facebook Auth process should complete the Facebook Auth process and return necessary data" name="Integration Testing: Facebook Auth process should complete the Facebook Auth process and return necessary data" time="1.576">
+  <testsuite name="Integration Testing: GitHub Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:19:05" time="12.232" tests="1">
+    <testcase classname="Integration Testing: GitHub Auth Process should complete the GitHub Auth process and return necessary data" name="Integration Testing: GitHub Auth Process should complete the GitHub Auth process and return necessary data" time="1.049">
     </testcase>
   </testsuite>
-  <testsuite name="Facebook Auth process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:05:26" time="16.028" tests="4">
-    <testcase classname="Facebook Auth process should return mock redirect URI in object format" name="Facebook Auth process should return mock redirect URI in object format" time="0.019">
-    </testcase>
-    <testcase classname="Facebook Auth process should return mock access tokens in object format" name="Facebook Auth process should return mock access tokens in object format" time="1.039">
-    </testcase>
-    <testcase classname="Facebook Auth process should return user details" name="Facebook Auth process should return user details" time="0.289">
-    </testcase>
-    <testcase classname="Facebook Auth process should return long-lived access token" name="Facebook Auth process should return long-lived access token" time="0.282">
+  <testsuite name="Integration Testing: LinkedIn Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:19:05" time="12.462" tests="1">
+    <testcase classname="Integration Testing: LinkedIn Auth Process should complete the LinkedIn Auth process and return necessary data" name="Integration Testing: LinkedIn Auth Process should complete the LinkedIn Auth process and return necessary data" time="1.712">
     </testcase>
   </testsuite>
-  <testsuite name="Github Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:05:26" time="16.48" tests="3">
-    <testcase classname="Github Auth Process should return mock redirect URI in object format" name="Github Auth Process should return mock redirect URI in object format" time="0.048">
+  <testsuite name="LinkedIn Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:19:05" time="12.802" tests="3">
+    <testcase classname="LinkedIn Auth Process should return mock redirect URI in object format" name="LinkedIn Auth Process should return mock redirect URI in object format" time="0.047">
     </testcase>
-    <testcase classname="Github Auth Process should return mock access tokens in object format" name="Github Auth Process should return mock access tokens in object format" time="0.938">
+    <testcase classname="LinkedIn Auth Process should return mock access tokens in object format" name="LinkedIn Auth Process should return mock access tokens in object format" time="1">
     </testcase>
-    <testcase classname="Github Auth Process should return user details" name="Github Auth Process should return user details" time="0.249">
+    <testcase classname="LinkedIn Auth Process should return user details" name="LinkedIn Auth Process should return user details" time="0.711">
     </testcase>
   </testsuite>
-  <testsuite name="Github Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:05:42" time="1.638" tests="3">
-    <testcase classname="Github Auth Process should return mock redirect URI in object format" name="Github Auth Process should return mock redirect URI in object format" time="0.002">
+  <testsuite name="Github Auth Process" errors="0" failures="0" skipped="0" timestamp="2024-03-20T07:19:17" time="0.888" tests="3">
+    <testcase classname="Github Auth Process should return mock redirect URI in object format" name="Github Auth Process should return mock redirect URI in object format" time="0.001">
     </testcase>
-    <testcase classname="Github Auth Process should return mock access tokens in object format" name="Github Auth Process should return mock access tokens in object format" time="0.469">
+    <testcase classname="Github Auth Process should return mock access tokens in object format" name="Github Auth Process should return mock access tokens in object format" time="0.407">
     </testcase>
-    <testcase classname="Github Auth Process should return user details" name="Github Auth Process should return user details" time="0.34">
+    <testcase classname="Github Auth Process should return user details" name="Github Auth Process should return user details" time="0.312">
     </testcase>
   </testsuite>
 </testsuites>

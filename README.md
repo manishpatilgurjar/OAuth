@@ -4,11 +4,11 @@ This codebase provides a comprehensive solution for handling authentication with
 
 1. **Installation**: Install the package using npm or yarn:
    ```
-   npm install oauth
+   npm install social-media-auth
    ```
    or
    ```
-   yarn add oauth
+   yarn add social-media-auth
    ```
 
 ### Key Features:
@@ -31,8 +31,8 @@ This codebase provides a comprehensive solution for handling authentication with
 To use these services, instantiate the desired service class and call its methods with the appropriate parameters. For example, to generate a Facebook login URL:
 
 ```javascript
-const facebookAuthService = new FacebookAuthService();
-const loginUrl = OAuth.facebook.generateFacebookAuthUrl(clientId, redirectUri);
+import {facebook} from 'social-media-auth'
+const loginUrl = facebook.generateFacebookAuthUrl(clientId, redirectUri);
 ```
 
 
