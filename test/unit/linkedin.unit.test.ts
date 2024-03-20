@@ -1,4 +1,4 @@
-import { Auth } from "../../src";
+import { linkedin } from "../../src";
 
 // Describe block for testing LinkedIn Auth Process
 describe("LinkedIn Auth Process", () => {
@@ -9,9 +9,7 @@ describe("LinkedIn Auth Process", () => {
     const mockClientSecret = "fdhnfkgnbdDSFBDK";
     const mockAccessToken = "dfndsfnhdcbfudQASAXNCASCXQALSNKZXAOLSXAJ";
 
-    // Instantiate LinkedIn Auth object
-    let linkedin = Auth.Linkedin;
-
+ 
     // Test case: generateLinkedinAuthUrl function
     it("should return mock redirect URI in object format", () => {
         // Call the function to generate the LinkedIn authentication URL

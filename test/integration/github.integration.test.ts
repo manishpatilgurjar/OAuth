@@ -1,4 +1,4 @@
-import { Auth } from "../../src";
+import {github} from "../../src";
 
 // Describe block for integration testing of GitHub Auth Process
 describe("Integration Testing: GitHub Auth Process", () => {
@@ -9,8 +9,6 @@ describe("Integration Testing: GitHub Auth Process", () => {
     const mockClientSecret = "fdhnfkgnbdDSFBDK";
     const mockAccessToken = "dfndsfnhdcbfudQASAXNCASCXQALSNKZXAOLSXLAJ";
 
-    // Instantiate GitHub Auth object
-    let github = Auth.Github;
 
     // Test case: Complete GitHub Auth process
     it("should complete the GitHub Auth process and return necessary data", async () => {

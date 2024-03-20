@@ -1,4 +1,4 @@
-import { Auth } from "../../src";
+import {google} from "../../src";
 
 // Describe block for integration testing of Google Auth Process
 describe("Integration Testing: Google Auth Process", () => {
@@ -9,8 +9,6 @@ describe("Integration Testing: Google Auth Process", () => {
     const mockClientSecret = "fdhnfkgnbdDSFBDK";
     const mockAccessToken = "dfndsfnhdcbfudQASAXNCASCXQALSNKZXAOLSXLAJ";
 
-    // Instantiate Google Auth object
-    let google = Auth.Google;
 
     // Test case: Complete Google Auth process
     it("should complete the Google Auth process and return necessary data", async () => {

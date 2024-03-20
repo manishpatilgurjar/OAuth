@@ -1,0 +1,14 @@
+# .npmignore
+.vscode/
+test-results/
+.babelrc
+tsconfig.json
+tslint.json
+.prettierrc
+
+# Ignore source files and folders
+src/
+test/
+
+# Ignore node_modules
+node_modules/

@@ -1,5 +1,16 @@
 This codebase provides a comprehensive solution for handling authentication with various social media platforms, including Facebook, GitHub, LinkedIn, and Google. It is structured around service classes for each platform, each encapsulating the logic for generating authentication URLs, exchanging authorization codes for access tokens, and retrieving user details. The code leverages a common `HttpService` for making HTTP requests and relies on a set of constants and interfaces for configuration and data structure.
 
+ ### Setup
+
+1. **Installation**: Install the package using npm or yarn:
+   ```
+   npm install oauth
+   ```
+   or
+   ```
+   yarn add oauth
+   ```
+
 ### Key Features:
 
 - **Modular Design**: Each service class is responsible for a specific platform, promoting separation of concerns and making the codebase easier to maintain and extend.
@@ -21,15 +32,10 @@ To use these services, instantiate the desired service class and call its method
 
 ```javascript
 const facebookAuthService = new FacebookAuthService();
-const loginUrl = facebookAuthService.generateFacebookAuthUrl(clientId, redirectUri);
+const loginUrl = OAuth.facebook.generateFacebookAuthUrl(clientId, redirectUri);
 ```
 
-And to retrieve user details from GitHub:
 
-```javascript
-const githubAuthService = new GithubAuthService();
-const userDetails = await githubAuthService.getUserDetails(accessToken);
-```
 
 ### Dependencies:
 

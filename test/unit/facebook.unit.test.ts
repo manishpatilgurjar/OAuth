@@ -1,4 +1,4 @@
-import { Auth } from "../../src";
+import  {facebook} from "../../src";
 
 // Describe block for testing Facebook Auth process
 describe("Facebook Auth process", () => {
@@ -11,7 +11,7 @@ describe("Facebook Auth process", () => {
     const shortLivedAccessToken = "dkjbhdkbgdaisudhskbckdagcbccAUDdfgvhkdBSDJSK343rew";
 
     // Instantiate Facebook Auth object
-    let facebook = Auth.Facebook;
+
 
     // Test case: getFacebookLoginUrl function
     it("should return mock redirect URI in object format", () => {

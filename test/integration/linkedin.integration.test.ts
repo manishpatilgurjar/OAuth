@@ -1,4 +1,4 @@
-import { Auth } from "../../src";
+import { linkedin } from "../../src";
 
 // Describe block for integration testing of LinkedIn Auth Process
 describe("Integration Testing: LinkedIn Auth Process", () => {
@@ -8,9 +8,6 @@ describe("Integration Testing: LinkedIn Auth Process", () => {
     const mockCode = "aabcdjfkxcjdfhnolcvnjorlignjvdofldoli";
     const mockClientSecret = "fdhnfkgnbdDSFBDK";
     const mockAccessToken = "dfndsfnhdcbfudQASAXNCASCXQALSNKZXAOLSXLAJ";
-
-    // Instantiate LinkedIn Auth object
-    let linkedin = Auth.Linkedin;
 
     // Test case: Complete LinkedIn Auth process
     it("should complete the LinkedIn Auth process and return necessary data", async () => {

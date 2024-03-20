@@ -3,7 +3,7 @@ import { HttpService } from '../../common/httpService';
 import { ApiResponse } from '../interfaces/common.interfaces';
 import { Constants } from '../../enums/constants.common';
 import { TokenResponse, UserData } from '../interfaces/common.interfaces';
-import { validateNonEmptyParams } from '../../helpers/validation.common';
+import { validateNonEmptyParams } from '../helpers/validation.common';
 import { handleAuthUrlResponse } from '../../common/response.formate';
 
 // Class for handling GitHub authentication-related functionality
@@ -50,7 +50,7 @@ export class GithubAuthService {
             const params = {
                 client_id: clientId,
                 client_secret: clientSecret,
-                code: code,
+                code,
                 redirect_uri: redirectUri,
             };
             // Define headers for the HTTP request

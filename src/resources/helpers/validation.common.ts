@@ -1,5 +1,4 @@
-import { Messages } from "../enums/messages.common";
-
+import { Messages } from "../../enums/messages.common";
 /**
  * Checks whether a string value is null, undefined, or empty after trimming.
  * @param value - The string value to check.
@@ -21,14 +20,17 @@ export function validateNonEmptyParams(fields: { [fieldName: string]: string | u
 
     // Iterate through each parameter in the fields object
     for (const fieldName in fields) {
-        const value = fields[fieldName];
-
-        // Check if the parameter is empty using the isNullOrEmpty function
-        if (isNullOrEmpty(value)) {
-            // If empty, add the parameter name to the emptyFields array
-            emptyFields.push(fieldName);
+        if (Object.prototype.hasOwnProperty.call(fields, fieldName)) {
+            const value = fields[fieldName];
+            
+            // Check if the parameter is empty using the isNullOrEmpty function
+            if (isNullOrEmpty(value)) {
+                // If empty, add the parameter name to the emptyFields array
+                emptyFields.push(fieldName);
+            }
         }
     }
+    
 
     // Check if any parameters are empty
     if (emptyFields.length > 0) {

@@ -1,16 +1,14 @@
-import { Auth } from "../../src"
+import { facebook } from "../../src"
 // Describe block for integration testing of Facebook Auth process
 describe("Integration Testing: Facebook Auth process", () => {
     // Mock data for testing
     const mockUserId = "abcde1232fssdfdssaasdfd";
-    const mockRedirectUri = "https//localhost:300";
+    const mockRedirectUri = "https//localhost:3000";
     const mockCode = "aabcdjfkxcjdfhnolcvnjorlignjvdofldoli";
     const mockClientSecret = "fdhnfkgnbdDSFBDK";
     const shortLivedAccessToken = "dkjbhdkbgdaisudhskbckdagcbccAUDdfgvhkdBSDJSK343rew";
     
 
-    // Instantiate Facebook Auth object
-    let facebook = Auth.Facebook;
 
     // Test case: Complete Facebook Auth process
     it("should complete the Facebook Auth process and return necessary data", async () => {

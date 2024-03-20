@@ -2,7 +2,7 @@ import { HttpService } from '../../common/httpService';
 import { ApiResponse } from '../interfaces/common.interfaces';
 import { Constants } from '../../enums/constants.common';
 import { TokenResponse, UserData } from '../interfaces/common.interfaces';
-import { validateNonEmptyParams } from '../../helpers/validation.common';
+import { validateNonEmptyParams } from '../helpers/validation.common';
 import { handleAuthUrlResponse } from '../../common/response.formate';
 
 /**
